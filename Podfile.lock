@@ -1,0 +1,28 @@
+PODS:
+  - BaiduMapKit (3.4.4)
+  - BMKLocationKit (1.1.0)
+  - Masonry (1.1.0)
+  - MJRefresh (3.1.15.3)
+
+DEPENDENCIES:
+  - BaiduMapKit
+  - BMKLocationKit
+  - Masonry
+  - MJRefresh
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - BaiduMapKit
+    - BMKLocationKit
+    - Masonry
+    - MJRefresh
+
+SPEC CHECKSUMS:
+  BaiduMapKit: 4ac88f5a363500760392825b69709f4a0125f81e
+  BMKLocationKit: 1dae7e092b1f8bf808370bbbcbd23bc4445108d9
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJRefresh: b48380ae2b927b46c4ef000de9adb8dc748e1df7
+
+PODFILE CHECKSUM: 60c8e057514fe6298e098ecc6bac7a4380a61b64
+
+COCOAPODS: 1.5.0

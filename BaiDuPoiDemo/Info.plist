@@ -4,6 +4,8 @@
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
+	<key>CFBundleDisplayName</key>
+	<string>PoiDemo</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -25,6 +27,7 @@
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
 	<key>UIRequiredDeviceCapabilities</key>
+    
 	<array>
 		<string>armv7</string>
 	</array>
@@ -41,5 +44,19 @@
 		<string>UIInterfaceOrientationLandscapeLeft</string>
 		<string>UIInterfaceOrientationLandscapeRight</string>
 	</array>
+    
+    <key>NSBluetoothPeripheralUsageDescription</key>
+    <string>蓝牙权限，用于打印单据</string>
+    <key>NSCameraUsageDescription</key>
+    <string>因为需要上传照片，所以需要您授权相机权限，您也可以通过系统“设置”来进行权限管理</string>
+    <key>NSContactsUsageDescription</key>
+    <string>通讯录权限，用于查看需要的联系人</string>
+    <key>NSLocationWhenInUseUsageDescription</key>
+    <string>由于需要定位功能来确定您的当前位置、或者帮助您导航。所以需要您授权定位权限，只有在你使用APP时才会定位，您也可以通过系统“设置”来进行权限管理</string>
+    <key>NSMicrophoneUsageDescription</key>
+    <string>麦克风权限</string>
+    <key>NSPhotoLibraryUsageDescription</key>
+    <string>相册权限，用于选择照片上传</string>
+  
 </dict>
 </plist>

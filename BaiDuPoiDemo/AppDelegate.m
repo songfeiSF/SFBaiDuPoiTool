@@ -7,9 +7,9 @@
 //
 
 #import "AppDelegate.h"
-
+#import <BaiduMapAPI_Base/BMKMapManager.h>
 @interface AppDelegate ()
-
+@property (strong, nonatomic) BMKMapManager * mapManager;
 @end
 
 @implementation AppDelegate
@@ -17,6 +17,7 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    [self startBaiduMap];
     return YES;
 }
 
@@ -47,5 +48,17 @@
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
 }
 
-
+#pragma mark-- 启动百度地图
+- (void)startBaiduMap{
+    // 要使用百度地图，请先启动BaiduMapManager
+    _mapManager = [[BMKMapManager alloc]init];
+    // 如果要关注网络及授权验证事件，请设定     generalDelegate参数
+    BOOL ret = [_mapManager start:@"gycyQYCf7X4aclFNjSjl5xH5mZz6OdEo"  generalDelegate:nil];
+    //    BOOL ret = [_mapManager start:@"kBR0WvPmBQm61Oztynf5lmwoMS27NAU5"  generalDelegate:nil];//中盐域名
+    if (!ret) {
+        NSLog(@"BaiDuMap Manager Start Failed!");
+    }else{
+        NSLog(@"授权成功！");
+    }
+}
 @end

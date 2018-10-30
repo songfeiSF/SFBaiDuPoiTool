@@ -7,15 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		41096212316D47DAD46AB3B2 /* libPods-BaiDuPoiDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C8B1C0F7EA08AC36B1908E /* libPods-BaiDuPoiDemo.a */; };
 		BECBB39B2187EABE0069C0C2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBB39A2187EABE0069C0C2 /* AppDelegate.m */; };
 		BECBB39E2187EABE0069C0C2 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBB39D2187EABE0069C0C2 /* ViewController.m */; };
 		BECBB3A12187EABE0069C0C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECBB39F2187EABE0069C0C2 /* Main.storyboard */; };
 		BECBB3A32187EAC10069C0C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BECBB3A22187EAC10069C0C2 /* Assets.xcassets */; };
 		BECBB3A62187EAC10069C0C2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BECBB3A42187EAC10069C0C2 /* LaunchScreen.storyboard */; };
 		BECBB3A92187EAC10069C0C2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBB3A82187EAC10069C0C2 /* main.m */; };
+		BECBB3BE2187ED0D0069C0C2 /* AddCustomerWihtMapVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBB3B22187ED0C0069C0C2 /* AddCustomerWihtMapVC.m */; };
+		BECBB3BF2187ED0D0069C0C2 /* MatchAdressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBB3B32187ED0C0069C0C2 /* MatchAdressModel.m */; };
+		BECBB3C02187ED0D0069C0C2 /* SugListTableView.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBB3B52187ED0C0069C0C2 /* SugListTableView.m */; };
+		BECBB3C12187ED0D0069C0C2 /* AddCustomerWihtPoiSearchVC.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBB3B62187ED0C0069C0C2 /* AddCustomerWihtPoiSearchVC.m */; };
+		BECBB3C22187ED0D0069C0C2 /* PoiSearchHelpTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBB3B72187ED0C0069C0C2 /* PoiSearchHelpTool.m */; };
+		BECBB3CA2187EDCB0069C0C2 /* BaiDuLocationTool.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBB3C92187EDCB0069C0C2 /* BaiDuLocationTool.m */; };
+		BECBB3CD2187EE600069C0C2 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBB3CB2187EE600069C0C2 /* UIView+Extension.m */; };
+		BECBB3D02187EF3E0069C0C2 /* AddressModel.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBB3CF2187EF3E0069C0C2 /* AddressModel.m */; };
+		BECBB3D32187EF9F0069C0C2 /* SoftBaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBB3D22187EF9F0069C0C2 /* SoftBaseViewController.m */; };
+		BECBB3D72187F03E0069C0C2 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = BECBB3D62187F03E0069C0C2 /* UIColor+Extension.m */; };
+		BECBB3DA21882DF10069C0C2 /* screenshots.gif in Resources */ = {isa = PBXBuildFile; fileRef = BECBB3D921882DF10069C0C2 /* screenshots.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1CBD8FBD26E1362DBD05BE87 /* Pods-BaiDuPoiDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiDuPoiDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BaiDuPoiDemo/Pods-BaiDuPoiDemo.release.xcconfig"; sourceTree = "<group>"; };
+		A9C8B1C0F7EA08AC36B1908E /* libPods-BaiDuPoiDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BaiDuPoiDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECBB3962187EABE0069C0C2 /* BaiDuPoiDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BaiDuPoiDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BECBB3992187EABE0069C0C2 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BECBB39A2187EABE0069C0C2 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +40,28 @@
 		BECBB3A52187EAC10069C0C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		BECBB3A72187EAC10069C0C2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BECBB3A82187EAC10069C0C2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BECBB3B22187ED0C0069C0C2 /* AddCustomerWihtMapVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCustomerWihtMapVC.m; sourceTree = "<group>"; };
+		BECBB3B32187ED0C0069C0C2 /* MatchAdressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MatchAdressModel.m; sourceTree = "<group>"; };
+		BECBB3B42187ED0C0069C0C2 /* PoiSearchHelpTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PoiSearchHelpTool.h; sourceTree = "<group>"; };
+		BECBB3B52187ED0C0069C0C2 /* SugListTableView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SugListTableView.m; sourceTree = "<group>"; };
+		BECBB3B62187ED0C0069C0C2 /* AddCustomerWihtPoiSearchVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddCustomerWihtPoiSearchVC.m; sourceTree = "<group>"; };
+		BECBB3B72187ED0C0069C0C2 /* PoiSearchHelpTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PoiSearchHelpTool.m; sourceTree = "<group>"; };
+		BECBB3B92187ED0C0069C0C2 /* AddCustomerWihtMapVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCustomerWihtMapVC.h; sourceTree = "<group>"; };
+		BECBB3BA2187ED0C0069C0C2 /* AddCustomerWihtPoiSearchVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddCustomerWihtPoiSearchVC.h; sourceTree = "<group>"; };
+		BECBB3BB2187ED0D0069C0C2 /* MatchAdressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MatchAdressModel.h; sourceTree = "<group>"; };
+		BECBB3BC2187ED0D0069C0C2 /* SugListTableView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SugListTableView.h; sourceTree = "<group>"; };
+		BECBB3C82187EDCB0069C0C2 /* BaiDuLocationTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaiDuLocationTool.h; sourceTree = "<group>"; };
+		BECBB3C92187EDCB0069C0C2 /* BaiDuLocationTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaiDuLocationTool.m; sourceTree = "<group>"; };
+		BECBB3CB2187EE600069C0C2 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		BECBB3CC2187EE600069C0C2 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		BECBB3CE2187EF3E0069C0C2 /* AddressModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddressModel.h; sourceTree = "<group>"; };
+		BECBB3CF2187EF3E0069C0C2 /* AddressModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddressModel.m; sourceTree = "<group>"; };
+		BECBB3D12187EF9F0069C0C2 /* SoftBaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoftBaseViewController.h; sourceTree = "<group>"; };
+		BECBB3D22187EF9F0069C0C2 /* SoftBaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoftBaseViewController.m; sourceTree = "<group>"; };
+		BECBB3D52187F03E0069C0C2 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		BECBB3D62187F03E0069C0C2 /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		BECBB3D921882DF10069C0C2 /* screenshots.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = screenshots.gif; sourceTree = "<group>"; };
+		FE5B8919034A0691CFE65DE5 /* Pods-BaiDuPoiDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BaiDuPoiDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BaiDuPoiDemo/Pods-BaiDuPoiDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +69,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				41096212316D47DAD46AB3B2 /* libPods-BaiDuPoiDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		816590A14D475D112313F089 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9C8B1C0F7EA08AC36B1908E /* libPods-BaiDuPoiDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		93316B2DA19B4CF4385CD79A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FE5B8919034A0691CFE65DE5 /* Pods-BaiDuPoiDemo.debug.xcconfig */,
+				1CBD8FBD26E1362DBD05BE87 /* Pods-BaiDuPoiDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		BECBB38D2187EABE0069C0C2 = {
 			isa = PBXGroup;
 			children = (
 				BECBB3982187EABE0069C0C2 /* BaiDuPoiDemo */,
 				BECBB3972187EABE0069C0C2 /* Products */,
+				93316B2DA19B4CF4385CD79A /* Pods */,
+				816590A14D475D112313F089 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +114,8 @@
 		BECBB3982187EABE0069C0C2 /* BaiDuPoiDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BECBB3D821882DE30069C0C2 /* screenshots */,
+				BECBB3B12187ECF80069C0C2 /* AddCustomerWihtLocationHelp */,
 				BECBB3992187EABE0069C0C2 /* AppDelegate.h */,
 				BECBB39A2187EABE0069C0C2 /* AppDelegate.m */,
 				BECBB39C2187EABE0069C0C2 /* ViewController.h */,
@@ -71,6 +129,73 @@
 			path = BaiDuPoiDemo;
 			sourceTree = "<group>";
 		};
+		BECBB3B12187ECF80069C0C2 /* AddCustomerWihtLocationHelp */ = {
+			isa = PBXGroup;
+			children = (
+				BECBB3C72187ED320069C0C2 /* Tool */,
+				BECBB3C62187ED2D0069C0C2 /* Model */,
+				BECBB3C52187ED290069C0C2 /* View */,
+				BECBB3C42187ED1B0069C0C2 /* Controller */,
+				BECBB3B92187ED0C0069C0C2 /* AddCustomerWihtMapVC.h */,
+				BECBB3B22187ED0C0069C0C2 /* AddCustomerWihtMapVC.m */,
+				BECBB3BA2187ED0C0069C0C2 /* AddCustomerWihtPoiSearchVC.h */,
+				BECBB3B62187ED0C0069C0C2 /* AddCustomerWihtPoiSearchVC.m */,
+			);
+			path = AddCustomerWihtLocationHelp;
+			sourceTree = "<group>";
+		};
+		BECBB3C42187ED1B0069C0C2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		BECBB3C52187ED290069C0C2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BECBB3BC2187ED0D0069C0C2 /* SugListTableView.h */,
+				BECBB3B52187ED0C0069C0C2 /* SugListTableView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		BECBB3C62187ED2D0069C0C2 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BECBB3BB2187ED0D0069C0C2 /* MatchAdressModel.h */,
+				BECBB3B32187ED0C0069C0C2 /* MatchAdressModel.m */,
+				BECBB3CE2187EF3E0069C0C2 /* AddressModel.h */,
+				BECBB3CF2187EF3E0069C0C2 /* AddressModel.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		BECBB3C72187ED320069C0C2 /* Tool */ = {
+			isa = PBXGroup;
+			children = (
+				BECBB3D52187F03E0069C0C2 /* UIColor+Extension.h */,
+				BECBB3D62187F03E0069C0C2 /* UIColor+Extension.m */,
+				BECBB3D12187EF9F0069C0C2 /* SoftBaseViewController.h */,
+				BECBB3D22187EF9F0069C0C2 /* SoftBaseViewController.m */,
+				BECBB3CC2187EE600069C0C2 /* UIView+Extension.h */,
+				BECBB3CB2187EE600069C0C2 /* UIView+Extension.m */,
+				BECBB3C82187EDCB0069C0C2 /* BaiDuLocationTool.h */,
+				BECBB3C92187EDCB0069C0C2 /* BaiDuLocationTool.m */,
+				BECBB3B42187ED0C0069C0C2 /* PoiSearchHelpTool.h */,
+				BECBB3B72187ED0C0069C0C2 /* PoiSearchHelpTool.m */,
+			);
+			path = Tool;
+			sourceTree = "<group>";
+		};
+		BECBB3D821882DE30069C0C2 /* screenshots */ = {
+			isa = PBXGroup;
+			children = (
+				BECBB3D921882DF10069C0C2 /* screenshots.gif */,
+			);
+			path = screenshots;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,9 +203,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = BECBB3AC2187EAC10069C0C2 /* Build configuration list for PBXNativeTarget "BaiDuPoiDemo" */;
 			buildPhases = (
+				69CA9C4C4961D425563B97E4 /* [CP] Check Pods Manifest.lock */,
 				BECBB3922187EABE0069C0C2 /* Sources */,
 				BECBB3932187EABE0069C0C2 /* Frameworks */,
 				BECBB3942187EABE0069C0C2 /* Resources */,
+				6007EFDB0486AB2E74365412 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -128,6 +255,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECBB3DA21882DF10069C0C2 /* screenshots.gif in Resources */,
 				BECBB3A62187EAC10069C0C2 /* LaunchScreen.storyboard in Resources */,
 				BECBB3A32187EAC10069C0C2 /* Assets.xcassets in Resources */,
 				BECBB3A12187EABE0069C0C2 /* Main.storyboard in Resources */,
@@ -136,14 +264,65 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		6007EFDB0486AB2E74365412 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BaiDuPoiDemo/Pods-BaiDuPoiDemo-resources.sh",
+				"${PODS_ROOT}/BaiduMapKit/BaiduMapKit/BaiduMapAPI_Map.framework/Resources/mapapi.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mapapi.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BaiDuPoiDemo/Pods-BaiDuPoiDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69CA9C4C4961D425563B97E4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BaiDuPoiDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		BECBB3922187EABE0069C0C2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BECBB3CD2187EE600069C0C2 /* UIView+Extension.m in Sources */,
+				BECBB3CA2187EDCB0069C0C2 /* BaiDuLocationTool.m in Sources */,
 				BECBB39E2187EABE0069C0C2 /* ViewController.m in Sources */,
 				BECBB3A92187EAC10069C0C2 /* main.m in Sources */,
+				BECBB3C12187ED0D0069C0C2 /* AddCustomerWihtPoiSearchVC.m in Sources */,
+				BECBB3D72187F03E0069C0C2 /* UIColor+Extension.m in Sources */,
+				BECBB3C22187ED0D0069C0C2 /* PoiSearchHelpTool.m in Sources */,
+				BECBB3D02187EF3E0069C0C2 /* AddressModel.m in Sources */,
+				BECBB3BF2187ED0D0069C0C2 /* MatchAdressModel.m in Sources */,
+				BECBB3C02187ED0D0069C0C2 /* SugListTableView.m in Sources */,
+				BECBB3D32187EF9F0069C0C2 /* SoftBaseViewController.m in Sources */,
 				BECBB39B2187EABE0069C0C2 /* AppDelegate.m in Sources */,
+				BECBB3BE2187ED0D0069C0C2 /* AddCustomerWihtMapVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,10 +462,12 @@
 		};
 		BECBB3AD2187EAC10069C0C2 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5B8919034A0691CFE65DE5 /* Pods-BaiDuPoiDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BaiDuPoiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,10 +480,12 @@
 		};
 		BECBB3AE2187EAC10069C0C2 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1CBD8FBD26E1362DBD05BE87 /* Pods-BaiDuPoiDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = BaiDuPoiDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
